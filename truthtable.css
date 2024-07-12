@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(34, 33, 33);
+    color: rgb(225, 222, 222);
+    font-family: 'Poppins', 'Times New Roman', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Poppins', 'Times New Roman', sans-serif;
+    margin-top: 2%;
+    margin-bottom: 0.5%;
+    font-size: 3em;
+}
+
+h4{
+    text-align: center;
+    font-family: 'Poppins', 'Times New Roman', sans-serif;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    font-size:1.5em;
+}
+
+#box{
+    text-align: center;
+}
+
+input{
+    text-align:center;
+    border-radius: 10%;
+    height:50px;
+    width: 70%;
+    margin-top: 2%;
+    background-color: rgb(58, 57, 57);
+    color: white;
+    font-size: 1.5em;
+    padding: 0px;
+    font-family: 'Poppins', 'Times New Roman', sans-serif;
+}
+
+#buttons{
+    text-align: center;
+    margin-top: 1%;
+    font-family: 'Poppins', 'Times New Roman', sans-serif;
+}
+
+button{
+    width: 10%;
+    height: 10%;
+    border-radius: 20px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#submit{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 1%;
+    font-family: 'Poppins', 'Times New Roman', sans-serif;
+    display: inline-block;
+    color: black;
+}
+
+
+
+@media (max-width: 600px) {
+    #submit {
+        width: 29%; /* Adjust padding for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    h4{
+        font-size: 1em;
+        text-align: center;
+    }
+    table, th, td {
+        font-size: 12px; 
+        padding: 4px;    
+    }
+
+    #finalTable {
+        padding: 0 10px; 
+    }
+}
+
+button:hover{
+    background-color: gray;
+}
+
+#submit:hover{
+    background-color:rgb(103, 101, 98);
+}
+
+p{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse; /* Remove spaces between table cells */
+    width: auto;
+    text-align: center;
+    font-size: 1.5em; /* Adjust table width to content */
+}
+
+table, th, td {
+    border: 1px solid white; /* Add border to table, headers, and cells */
+    padding: 8px;            /* Add padding for better readability */
+    text-align: center;      /* Center text in table cells */
+}
+
+#finalTable{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+            
+}

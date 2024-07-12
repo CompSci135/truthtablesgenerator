@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truth Table Generator</title>
+    <link rel="stylesheet" href="truthtable.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Truth Table Generator</h1>
+    <h4>Presented By Cesar Al Ayache</h4>
+    <div id="box">
+        <input type="text" placeholder="Enter Expression..." id="inputbox">
+        <button id="submit"><strong>generate</strong></button>
+    </div>
+    <div id="buttons">
+        <button id="not">¬</button>
+        <button id="and">∧</button>
+        <button id="or">∨</button>
+        <button id="if">→</button>
+        <button id="iff">↔</button>
+        <button id="open">(</button>
+        <button id="close">)</button>
+        <br>
+        
+    </div>
+    <p id="validated"></p>
+    <div id="finalTable">
+    <table id="table"></table>
+    </div>
+    <script src="truthtable.js"></script>
+</body>
+</html>
